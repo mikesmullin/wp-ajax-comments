@@ -1,0 +1,78 @@
+CONTENTS OF THIS FILE
+---------------------
+
+ * Changes
+ * Requirements
+ * Installation
+ * Configuration
+ * More Information
+
+CHANGES
+-------
+
+As of AJAX Comments 2.09 the installation is fully automatic. It is no longer
+necessary to manually edit any of the template or WordPress core files.
+
+REQUIREMENTS
+------------
+
+AJAX Comments requires a web server, PHP4 (4.3.3 or greater) or PHP5
+(http://www.php.net/) and MySQL (http://www.mysql.com/). The Apache web
+server and MySQL database are recommended; other web server and database
+combinations such as IIS have been tested to a lesser extent. When using MySQL,
+version 4.1 or greater is recommended.
+
+For more detailed information about WordPress requirements, see "Server
+requirements" (http://codex.wordpress.org/Hosting_WordPress#Server_requirements)
+in the WordPress Codex.
+
+INSTALLATION
+------------
+
+0. BACKUP
+
+   Just in case.
+
+1. DOWNLOAD AJAX COMMENTS
+
+   You can obtain the latest WordPress release from Mike Smullin's WordPress
+   Collection (http://wordpress.smullindesign.com/plugins/ajax-comments). Files
+   are in .zip format and can be extracted using most compression tools.
+
+2. EXTRACT/UPLOAD TO WORDPRESS PLUGINS DIRECTORY
+
+   Upload the plugin to the wp-content/plugins folder in your WordPress
+   directory.
+
+3. ACTIVATE THE PLUGIN
+
+   Log-in to your WordPress blog.
+
+   From the Administration Panel, click on the "Plugin" tab.
+
+   Click "Activate" from the "Plugins Management" page.
+
+That's it! For detailed instructions, see "Installing plugins"
+(http://codex.wordpress.org/Managing_Plugins#Installing_Plugins) in the
+WordPress Codex.
+
+CONFIGURATION
+-------------
+
+There are a couple ways that AJAX Comments can work depending on the type of
+theme you have. To learn more about these options, log-in to your WordPress blog
+and from the Administration Panel, click on the "Options" tab. Then click on the
+"AJAX Comments" sub-tab.
+
+Continue by reading the on-screen instructions and then decide which option(s)
+are right for you.
+
+MORE INFORMATION
+----------------
+
+For platform specific configuration issues and other installation and
+administration assistance, please consult the WordPress Codex at
+http://codex.wordpress.org/Main_Page.
+
+For plugin specific support (e.g. questions, bugs/patches, feature requests)
+please contact "Software Support" <support@smullindesign.com>.

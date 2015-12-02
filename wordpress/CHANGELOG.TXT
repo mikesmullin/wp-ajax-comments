@@ -1,0 +1,51 @@
+Version 2.09, 2007-12-07
+------------------------
+- Completely rewrote to use WordPress Plugin API exclusively, facilitating the
+  seamless integration with other WordPress components. Also eliminates the need
+  for hacking during installation; just activate and it works.
+- Switched JavaScript library to jQuery instead of Script.aculo.us.
+- Bumped timeout to 60 seconds instead of 30.
+- Switched AJAX spinner graphic to one that works against any color/pattern
+  background.
+- Provided id/class attributes for plugin-generated elements so CSS styles can
+  be easily overridden.
+- Added an Options > AJAX Comments page in the WordPress Administration Panel.
+  - Added the choice between flexible vs. conventional performance:
+    - Flexible: Recycles 100% of existing comment template markup to work
+      with any theme.
+    - Conventional: Recycles only the comment template markup for new comments;
+      only works with themes that follow Kubrick's comment markup conventions.
+- Improved error handling; now catches and queues all WordPress and PHP errors.
+- Switched to user-friendly red boxes above the comment form when displaying
+  error messages, instead of JavaScript alert boxes.
+- Added support for localization of text strings.
+- Tested for cross-browser compatibility on Windows XP Professional Edition SP2,
+  verified to work in the following browsers:
+  - Firefox 2.0.0.11
+  - Internet Explorer 6.0.2900.2180.xp_sp2_rtm.040509-2158
+  - Internet Explorer 7.0.5730.13
+  - Opera 9.24
+  - Netscape 9.0.0.4
+  - Safari 3.0.4 (523.12.9)
+
+Version 2.08, 2006-07-08
+------------------------
+- Bundled Script.aculo.us 1.6.1 for older versions of WordPress that do not
+  include it in the /wp-includes/js directory.
+- Fixed bug: Three XHTML 1.0 Strict markup validation errors.
+- Fixed bug: LI element loses class/style attributes on Script.aculo.us effects.
+
+Version 2.00, 2006-06-05
+------------------------
+- Outsourced validation to the server via AJAX, instead of via JavaScript only.
+- Added Script.aculo.us fade in/out effects.
+- Specificaly designed to work with AuthImage captcha word verification plug-in.
+- Modified to degrade gracefully in browsers without JavaScript enabled.
+- Added ability to parse existing theme code when producing new comments.
+- Set a 25-second server timeout to ensure readers aren�t left hanging.
+- Tested for cross-browser compatibility in current versions of Firefox,
+  Internet Explorer, Opera, Netscape, and Safari.
+
+Version 1.00, 2006-03-28
+------------------------
+- Initial release.
